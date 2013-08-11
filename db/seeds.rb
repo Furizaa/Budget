@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+positions = Position.create([
+	{ title: 'Gummibärchen', amount: 2.98, due: DateTime.now },
+	{ title: 'Krankenversicherung', amount: 412.70, due: DateTime.now }
+])
